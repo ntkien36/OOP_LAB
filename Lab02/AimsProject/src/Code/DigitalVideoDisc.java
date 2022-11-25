@@ -1,11 +1,18 @@
 package Code;
 
 public class DigitalVideoDisc {
+	private static int nbDigitalVideoDisc = 0;
+	private int id;
 	private String title;
 	private String category;
 	private String director;
 	private int length;
 	private float cost;
+	// update the nbDigitalVideoDiscs, assign the appropriate value for the id
+    public DigitalVideoDisc() {
+        nbDigitalVideoDisc++;
+        this.id = nbDigitalVideoDisc;
+    }
 	public DigitalVideoDisc(String title) {
 		super();
 		this.title = title;
@@ -42,9 +49,12 @@ public class DigitalVideoDisc {
 	}
 	public int getLength() {
 		return length;
-	}
+	}	
 	public float getCost() {
 		return cost;
+	}
+	public void setTitle(String title) {
+		this.title = title;
 	}
 	@Override
     public boolean equals(Object obj){
