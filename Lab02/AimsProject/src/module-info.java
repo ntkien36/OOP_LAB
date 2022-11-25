@@ -5,5 +5,5 @@
  * @author Admin
  *
  */
-module AimsProject {
+module Lab02 {
 }
