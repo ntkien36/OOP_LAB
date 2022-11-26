@@ -1,3 +1,0 @@
-Question:
-1.If users choose "Cancel", the aswer will be "No".
-2. Customize the option: in file ChoosingOption2.java.
