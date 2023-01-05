@@ -45,7 +45,7 @@ public abstract class Media {
     		new MediaComparatorByCostTitle();
     @Override
     public boolean equals(Object o){
-        Media tmp = (Media)o;
+        Media tmp = (Media) o;
         return this.title.equals(tmp.getTitle());
     }
 }

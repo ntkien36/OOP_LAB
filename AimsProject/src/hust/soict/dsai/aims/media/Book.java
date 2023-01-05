@@ -5,6 +5,9 @@ public class Book extends Media {
 	public Book() {
 		// TODO Auto-generated constructor stub		
 	}
+	 public Book(String title, String category, float cost) {
+	        super(title, category, cost);
+	    }
 	private List<String> authors = new ArrayList<String>();
 	
 	public List<String> getAuthors() {
