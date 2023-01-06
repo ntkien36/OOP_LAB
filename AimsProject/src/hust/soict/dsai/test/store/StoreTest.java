@@ -6,9 +6,9 @@ public class StoreTest {
     public static void main(String[] args){
         Store Store = new Store();
         Media dvd1 = new DigitalVideoDisc("The Lion King", 
-        		"Animation", 19.95f, "Roger Allers", 87);
+        		"Animation", "Roger Allers", 87, 19.95f);
         Media dvd2 = new DigitalVideoDisc("Star Wars", 
-        		"Science Fiction", 24.95f, "Geogre Lucas", 87);
+        		"Science Fiction", "Geogre Lucas", 87, 24.95f);
         Media dvd3 = new DigitalVideoDisc("Aladin", 
         		"Animation", 18.99f);
         Media dvd4 = new DigitalVideoDisc("Aladin", 

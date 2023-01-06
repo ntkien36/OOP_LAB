@@ -127,7 +127,7 @@ public class Aims {
             String director = sc.nextLine();
             System.out.print("Enter the length: ");
             int length = sc.nextInt();
-            m = new DigitalVideoDisc(title, category, cost, director, length);
+            m = new DigitalVideoDisc(title, category, director, length, cost);
         }
         store.addMedia(m);
     }
